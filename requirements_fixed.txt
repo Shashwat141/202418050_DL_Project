@@ -1,0 +1,46 @@
+# requirements_fixed.txt - Comprehensive package requirements
+
+# Core PyTorch and transformers
+torch>=2.0.1
+torchvision>=0.15.0
+transformers>=4.30.0
+
+# Data processing
+numpy>=1.24.3
+pandas>=2.0.2
+scikit-learn>=1.2.2
+
+# Visualization
+matplotlib>=3.7.1
+seaborn>=0.12.0
+
+# Progress bars and utilities
+tqdm>=4.65.0
+
+# HTTP requests for data download
+requests>=2.31.0
+
+# Additional scientific computing
+scipy>=1.10.0
+
+# JSON handling (usually included with Python)
+# but explicit for compatibility
+jsonlines>=3.1.0
+
+# Memory profiling (optional, for debugging)
+psutil>=5.9.0
+
+# Jupyter support (optional, for development)
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+
+# Development and testing (optional)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Warning suppression and logging
+warnings
+logging
+
+# For better error messages
+traceback2>=1.4.0
